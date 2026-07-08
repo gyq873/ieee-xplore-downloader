@@ -1,0 +1,17 @@
+# Netscape HTTP Cookie File
+# Export from your browser while logged into IEEE Xplore (institutional access).
+#
+# Recommended extension: "Get cookies.txt LOCALLY" (Chrome / Firefox)
+# Save the exported file as: config/ieee_cookies.txt
+#
+# Required domains typically include:
+#   .ieee.org
+#   ieeexplore.ieee.org
+#
+# IMPORTANT:
+# - config/ieee_cookies.txt is gitignored — never commit real cookies.
+# - Cookies expire; re-export when downloads fail with auth errors.
+# - Only use cookies from your own institutional subscription.
+#
+# After export, test with:
+#   python scripts/xplore_download.py --tsv work/example.tsv --out-dir papers/test --limit 1 --resume

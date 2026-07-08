@@ -1,0 +1,23 @@
+# Local credentials — never commit
+config/ieee_cookies.txt
+
+# Runtime outputs
+work/*
+!work/.gitkeep
+
+# Downloaded PDFs
+papers/*
+!papers/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
